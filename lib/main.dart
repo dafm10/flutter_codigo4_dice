@@ -24,7 +24,7 @@ class _MyAppState extends State<MyApp> {
         backgroundColor: Colors.deepPurpleAccent,
         appBar: AppBar(
           backgroundColor: Colors.deepPurpleAccent,
-          title: const Text("DiceApp"),
+          title: const Text("Dice App"),
         ),
         body: Center(
           child: Row(
