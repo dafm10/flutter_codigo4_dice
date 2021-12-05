@@ -30,6 +30,7 @@ class _MyAppState extends State<MyApp> {
           child: Row(
             children: [
               Expanded(
+                flex: 1,
                 child: TextButton(
                   child: Image.asset(
                     "assets/images/dice$numberDiceLeft.png",
@@ -42,6 +43,7 @@ class _MyAppState extends State<MyApp> {
                 ),
               ),
               Expanded(
+                flex: 1,
                 child: TextButton(
                   child: Image.asset(
                     "assets/images/dice$numberDiceRight.png",
