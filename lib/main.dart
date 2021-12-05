@@ -26,7 +26,7 @@ class _MyAppState extends State<MyApp> {
           backgroundColor: Colors.deepPurpleAccent,
           title: const Text("Dice App"),
         ),
-        body: Center(
+        body: Center( // centra todo el contenido de row
           child: Row(
             children: [
               Expanded(
