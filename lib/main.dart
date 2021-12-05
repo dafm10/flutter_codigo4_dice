@@ -38,7 +38,7 @@ class _MyAppState extends State<MyApp> {
                   onPressed: () {
                     numberDiceLeft = Random().nextInt(6) + 1;
                     numberDiceRight = Random().nextInt(6) + 1;
-                    setState((){});
+                    setState((){}); // usado para cambiar la pantalla
                   },
                 ),
               ),
